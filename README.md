@@ -20,6 +20,6 @@ Bạn có thể cài đặt ứng dụng nhanh chóng bằng bộ cài tự đ�
 
 ---
 
-## 🛠️ Sử dụng (Dành cho Map Dev)
+## 🛠️ Cách Sử dụng (Dành cho Map Dev)
 1. Đặt script Lua trích xuất dữ liệu vào môi trường Trigger của Mini World.
 2. Khởi chạy **MiniConsole**, công cụ sẽ tự động bắt luồng log (`@@JSON_BATCH`, `@@OPEN_JSON`) và tiến hành biên dịch ra các file JSON hoàn chỉnh.
