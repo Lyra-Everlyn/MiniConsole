@@ -10,18 +10,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        if (Environment.GetEnvironmentVariable("WT_SESSION") != null && (args.Length == 0 || args[0] != "--conhost"))
+        if (WindowIconHelper.EnsureStandaloneWithCustomIcon(args))
         {
-            string? exePath = Environment.ProcessPath;
-            if (!string.IsNullOrEmpty(exePath))
-            {
-                System.Diagnostics.Process.Start("conhost.exe", $"\"{exePath}\" --conhost");
-                return;
-            }
+            return;
         }
 
         Console.OutputEncoding = Encoding.UTF8;
-        Console.Title = "MiniWorld Lossless JSON Engine V3";
+        Console.Title = "MiniConsole";
 
         AppSettings settings = ConfigLoader.Load();
         string? logPath = LogPathLocator.FindTriggerLogFile(settings);
