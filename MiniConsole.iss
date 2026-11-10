@@ -1,7 +1,7 @@
 [Setup]
 AppId={{8F9A2B3C-4D5E-6F7A-8B9C-0D1E2F3A4B5C}
 AppName=MiniConsole
-AppVersion=1.0.0
+AppVersion=1.2.0
 AppPublisher=Lyra Everlyn
 AppPublisherURL=https://github.com/Lyra-Everlyn/MiniConsole
 AppSupportURL=https://github.com/Lyra-Everlyn/MiniConsole/issues
@@ -12,7 +12,7 @@ DefaultGroupName=MiniConsole
 SetupIconFile=MiniConsole\icon.ico
 UninstallDisplayIcon={app}\MiniConsole.exe
 OutputDir=Installer
-OutputBaseFilename=MiniConsole_Setup_v1.1.0
+OutputBaseFilename=MiniConsole_Setup_v1.2.0
 Compression=lzma2/max
 SolidCompression=yes
 PrivilegesRequired=lowest
