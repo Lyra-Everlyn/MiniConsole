@@ -2,7 +2,6 @@
 > Công cụ cào dữ liệu và theo dõi Log thời gian thực dành cho Map Developer trong **Mini World**.
 
 [![Download Setup](https://img.shields.io/badge/Download-Setup_v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/Lyra-Everlyn/MiniConsole/releases/download/v1.0.0/MiniConsole_Setup_v1.0.0.exe)
-[![GitHub Release](https://img.shields.io/github/v/release/Lyra-Everlyn/MiniConsole?style=for-the-badge&color=green)](https://github.com/Lyra-Everlyn/MiniConsole/releases/latest)
 
 ---
 
