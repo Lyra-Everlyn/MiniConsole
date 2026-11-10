@@ -8,7 +8,7 @@ namespace MiniConsole;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         if (WindowIconHelper.EnsureStandaloneWithCustomIcon(args))
         {
@@ -17,6 +17,8 @@ class Program
 
         Console.OutputEncoding = Encoding.UTF8;
         Console.Title = "MiniConsole";
+
+        await AutoUpdaterService.CheckAndApplyUpdateAsync();
 
         AppSettings settings = ConfigLoader.Load();
         string? logPath = LogPathLocator.FindTriggerLogFile(settings);

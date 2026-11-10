@@ -13,7 +13,7 @@ namespace MiniConsole.Views
         public static void PrintBanner(string logPath, bool removeTags, int pollIntervalMs)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"[Target Log]   : {logPath}");
+            //Console.WriteLine($"[Target Log]   : {logPath}");
             Console.WriteLine($"[Strip Tags]   : {removeTags} | [Poll Interval]: {pollIntervalMs}ms \n");
             Console.ResetColor();
         }
