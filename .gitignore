@@ -1,5 +1,5 @@
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
 Publish/
 MiniConsole/bin/
 MiniConsole/obj/
@@ -11,3 +11,6 @@ Installer/
 *.user
 *.suo
 *.DotSettings.user
+
+*.exe
+*.pdb
