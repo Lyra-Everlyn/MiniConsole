@@ -10,6 +10,16 @@ class Program
 {
     static void Main(string[] args)
     {
+        if (Environment.GetEnvironmentVariable("WT_SESSION") != null && (args.Length == 0 || args[0] != "--conhost"))
+        {
+            string? exePath = Environment.ProcessPath;
+            if (!string.IsNullOrEmpty(exePath))
+            {
+                System.Diagnostics.Process.Start("conhost.exe", $"\"{exePath}\" --conhost");
+                return;
+            }
+        }
+
         Console.OutputEncoding = Encoding.UTF8;
         Console.Title = "MiniWorld Lossless JSON Engine V3";
 
