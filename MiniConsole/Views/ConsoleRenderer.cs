@@ -75,8 +75,6 @@ namespace MiniConsole.Views
             if (total <= 0) total = 1;
             double percent = Math.Min(100.0, (double)current / total * 100.0);
 
-            Console.Title = $"MW Engine V3 - {percent:F2}% ({current:N0}/{total:N0}) | {statusInfo}";
-
             const int barWidth = 25;
             int filled = (int)Math.Round(percent / 100.0 * barWidth);
             string bar = new string('█', filled) + new string('░', barWidth - filled);
