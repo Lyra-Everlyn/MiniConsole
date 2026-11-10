@@ -1,7 +1,11 @@
 bin/
 obj/
 Publish/
+MiniConsole/bin/
+MiniConsole/obj/
+MiniConsole/Publish/
 Installer/
+
 .vs/
 .vscode/
 *.user
