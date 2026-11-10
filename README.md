@@ -1,7 +1,7 @@
 # 🦖 MiniConsole
 > Công cụ cào dữ liệu và theo dõi Log thời gian thực dành cho Map Developer trong **Mini World**.
 
-[![Download Setup](https://img.shields.io/badge/Download-Setup_v1.0.0-blue?style=for-the-badge&logo=windows)](https://github.com/Lyra-Everlyn/MiniConsole/releases/download/v1.1.0/MiniConsole_Setup_v1.1.0.exe)
+[![Download Setup](https://img.shields.io/badge/Download-Setup_v1.1.0-blue?style=for-the-badge&logo=windows)](https://github.com/Lyra-Everlyn/MiniConsole/releases/download/v1.1.0/MiniConsole_Setup_v1.1.0.exe)
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 📥 Tải về & Cài đặt
 Bạn có thể cài đặt ứng dụng nhanh chóng bằng bộ cài tự động (Setup Wizard):
-1. Tải bộ cài [MiniConsole_Setup_v1.0.0.exe](https://github.com/Lyra-Everlyn/MiniConsole/releases/download/v1.1.0/MiniConsole_Setup_v1.1.0.exe).
+1. Tải bộ cài [MiniConsole_Setup_v1.1.0.exe](https://github.com/Lyra-Everlyn/MiniConsole/releases/download/v1.1.0/MiniConsole_Setup_v1.1.0.exe).
 2. Chạy file và làm theo hướng dẫn trên màn hình để chọn thư mục lưu trữ và tạo icon ngoài Desktop.
 
 ---
